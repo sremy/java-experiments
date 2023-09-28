@@ -1,0 +1,12 @@
+{
+  "name": "Bond",
+  "firstname": "James",
+  "address": {
+    "city": "Paris",
+    "postalCode": "75017",
+    "street": "rue Cardinet",
+    "streetNumber": "17A",
+    "department": "Ile-de-France"
+  },
+  "accountId": 1
+}
