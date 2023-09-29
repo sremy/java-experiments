@@ -1,5 +1,8 @@
 package org.example.domain;
 
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import org.example.CustomDepartmentsDeserializer;
+
 import java.util.List;
 
 public class Address {
@@ -8,6 +11,7 @@ public class Address {
     private String postalCode;
     private String street;
     private String streetNumber;
+    @JsonDeserialize(using = CustomDepartmentsDeserializer.class)
     private List<String> departments;
 
     public Address() {

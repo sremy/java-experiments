@@ -6,7 +6,7 @@
     "postalCode": "75017",
     "street": "rue Cardinet",
     "streetNumber": "17A",
-    "department": "Ile-de-France"
+    "departments": "Ile-de-France"
   },
   "accountId": 1
 }
